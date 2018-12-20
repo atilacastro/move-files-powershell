@@ -25,7 +25,7 @@ Write-Host "Perform backup copy of database to backup server" >> "c:\Scripts\log
 Write-Host "########################################################################################" 
 
 Copy-Item -Path $ORIGIN -Destination $DESTINATION -Recurse >> "c:\Scripts\log.txt"
-#Command below will delete files with the lifetime of more than 30 days
+#Command below will delete files with the lifetime of more than 7 days
 
 Write-Host "########################################################################################"
 
